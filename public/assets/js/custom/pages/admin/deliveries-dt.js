@@ -496,7 +496,7 @@ var renderDelivery = function() {
                 console.log("Category Type Selected:", catType);
             });
 
-            $('#itemForm').on('input', 'input[name="purchase_price"]', function() {
+            $('#itemForm').on('change', 'input[name="purchase_price"]', function() {
                 let ppAmt = $(this).val();
 
                 if (catType === 'ICS' && ppAmt > 50000) {
