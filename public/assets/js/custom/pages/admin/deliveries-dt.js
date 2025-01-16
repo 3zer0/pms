@@ -418,7 +418,7 @@ var renderDelivery = function() {
                         }
                     },
                 ]
-            })
+            });
 
             deliveryDt.on('draw', function () {
                 KTMenu.createInstances();
